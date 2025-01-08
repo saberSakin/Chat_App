@@ -1,7 +1,11 @@
 import express from "express" 
+import authRoutes from "./routes/auth.route.js"
 
-const app = express(); // 2. Create an Express application
 
-app.listen(5001, () => { // 3. Start the server on port 5001
-  console.log("server is running on port 5001"); // 4. Log a message to the console
+const app = express(); 
+
+app.use("/api/auth", authRoutes)
+
+app.listen(5001, () => { 
+  console.log("server is running on port 5001"); 
 });

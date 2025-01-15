@@ -15,3 +15,11 @@ app.listen(PORT, () => {
   console.log("server is running on port PORT:" + PORT); 
   connectDB()
 });
+
+
+///////////////////
+
+// app.listen(PORT, () => { 
+//   console.log("server is running on port PORT:" + PORT); 
+//   connectDB()
+// });

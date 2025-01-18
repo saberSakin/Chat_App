@@ -20,6 +20,6 @@ app.listen(PORT, () => {
 ///////////////////
 
 app.listen(PORT, () => { 
-  console.log("server is running on port PORT:" + PORT); 
+  console.log("server is running on port PORT 5000:" + PORT); 
   connectDB()
 });
